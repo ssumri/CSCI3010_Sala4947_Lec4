@@ -48,7 +48,8 @@ std::vector<bool> OddMask(std::vector<int>);
 int Sum(std::vector<int> nums)
 {
 	int sum = 0;
-	for (int i = 0; i < nums.size(); i++)
+	int siz = nums.size();
+	for (int i = 0; i < siz; i++)
 	{
 		sum = sum + nums[i];
 	}
@@ -59,7 +60,8 @@ int Sum(std::vector<int> nums)
 int Product(std::vector<int> nums)
 {
 	int prod = 1;
-	for (int i = 0; i < nums.size(); i++)
+	int siz = nums.size();
+	for (int i = 0; i < siz; i++)
 	{
 		prod = prod * nums[i];
 	}
